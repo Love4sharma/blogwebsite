@@ -1,4 +1,4 @@
-import Navbar from "@/components/home/header/Navbar";
+import { Navbar } from "@/components/home/header/Navbar";
 import { prisma } from "@/lib/prisma";
 import { currentUser } from "@clerk/nextjs/server";
 import React from "react";
